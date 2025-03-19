@@ -405,6 +405,319 @@
 				)
 			)
 		)
+		(symbol "Conn_02x04_Odd_Even_1"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J23"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RFID1"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical"
+				(at 5.08 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 3.81 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x04_Odd_Even_1_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "IRQ(NC)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "VCC_3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -7787,6 +8100,12 @@
 		(uuid "3be1c810-46c0-4816-950e-3d9520cbbeb2")
 	)
 	(junction
+		(at 92.71 344.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c3a3408-b85a-47aa-b7e3-638988ed2c33")
+	)
+	(junction
 		(at 41.91 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8097,10 +8416,6 @@
 		(uuid "10827716-1e4a-4ed7-9028-512e49ba4d63")
 	)
 	(no_connect
-		(at 121.92 119.38)
-		(uuid "14d548c1-ebae-48af-a074-bbb19664a65d")
-	)
-	(no_connect
 		(at 151.13 8.89)
 		(uuid "153a82e8-b27e-4e09-896f-d281a397f7dc")
 	)
@@ -8131,10 +8446,6 @@
 	(no_connect
 		(at 93.98 106.68)
 		(uuid "8ecd311c-f142-4c85-ba12-c2b9ea636427")
-	)
-	(no_connect
-		(at 121.92 121.92)
-		(uuid "9165c061-b9c6-4c4f-806c-3ccd5dc1ad88")
 	)
 	(no_connect
 		(at 121.92 109.22)
@@ -9150,6 +9461,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 344.17) (xy 92.71 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1347db72-5e3f-47ff-b753-af2ab91298dc")
+	)
+	(wire
+		(pts
 			(xy 106.68 123.19) (xy 106.68 129.54)
 		)
 		(stroke
@@ -9387,6 +9708,16 @@
 			(type default)
 		)
 		(uuid "1f30c1a4-31fa-4c25-a5b9-274fe8cf4e68")
+	)
+	(wire
+		(pts
+			(xy 121.92 119.38) (xy 121.92 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3d8b24-edb5-4fc3-8720-8c0e838511d3")
 	)
 	(wire
 		(pts
@@ -9897,6 +10228,16 @@
 			(type default)
 		)
 		(uuid "453cc412-c953-49c7-aa93-cfdf985e760b")
+	)
+	(wire
+		(pts
+			(xy 82.55 325.12) (xy 92.71 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45da5ace-70e1-4b94-998d-fa9a4a682844")
 	)
 	(wire
 		(pts
@@ -11970,6 +12311,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 325.12) (xy 92.71 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3960c55-d223-4698-b6ea-26af679c8424")
+	)
+	(wire
+		(pts
 			(xy 107.95 153.67) (xy 107.95 147.32)
 		)
 		(stroke
@@ -12638,6 +12989,16 @@
 		)
 		(uuid "dfcdd1f0-04b8-4072-b87d-9e7e10b91d25")
 	)
+	(wire
+		(pts
+			(xy 92.71 344.17) (xy 92.71 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff0544e-2e28-4b4f-b21e-bca821c8c8a6")
+	)
 	(bus
 		(pts
 			(xy 248.92 114.3) (xy 248.92 116.84)
@@ -13160,7 +13521,6 @@
 	)
 	(label "aux22"
 		(at 187.96 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13171,7 +13531,6 @@
 	)
 	(label "aux33"
 		(at 187.96 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13182,7 +13541,6 @@
 	)
 	(label "aux11"
 		(at 233.68 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13193,7 +13551,6 @@
 	)
 	(label "aux28"
 		(at 187.96 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13204,7 +13561,6 @@
 	)
 	(label "aux31"
 		(at 187.96 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13215,7 +13571,6 @@
 	)
 	(label "aux11"
 		(at 187.96 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13226,7 +13581,6 @@
 	)
 	(label "aux1"
 		(at 187.96 20.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13237,7 +13591,6 @@
 	)
 	(label "aux7"
 		(at 187.96 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13248,7 +13601,6 @@
 	)
 	(label "aux4"
 		(at 246.38 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13259,7 +13611,6 @@
 	)
 	(label "aux27"
 		(at 233.68 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13270,7 +13621,6 @@
 	)
 	(label "aux14"
 		(at 246.38 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13281,7 +13631,6 @@
 	)
 	(label "aux24"
 		(at 246.38 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13292,7 +13641,6 @@
 	)
 	(label "aux12"
 		(at 187.96 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13303,7 +13651,6 @@
 	)
 	(label "aux32"
 		(at 187.96 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13314,7 +13661,6 @@
 	)
 	(label "aux23"
 		(at 187.96 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13325,7 +13671,6 @@
 	)
 	(label "aux9"
 		(at 233.68 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13336,7 +13681,6 @@
 	)
 	(label "aux18"
 		(at 246.38 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13347,7 +13691,6 @@
 	)
 	(label "aux29"
 		(at 233.68 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13358,7 +13701,6 @@
 	)
 	(label "aux20"
 		(at 246.38 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13369,7 +13711,6 @@
 	)
 	(label "aux6"
 		(at 187.96 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13380,7 +13721,6 @@
 	)
 	(label "aux5"
 		(at 187.96 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13391,7 +13731,6 @@
 	)
 	(label "aux4"
 		(at 187.96 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13402,7 +13741,6 @@
 	)
 	(label "aux3"
 		(at 187.96 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13413,7 +13751,6 @@
 	)
 	(label "aux17"
 		(at 233.68 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13424,7 +13761,6 @@
 	)
 	(label "aux26"
 		(at 246.38 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13435,7 +13771,6 @@
 	)
 	(label "aux15"
 		(at 187.96 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13446,7 +13781,6 @@
 	)
 	(label "aux10"
 		(at 187.96 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13457,7 +13791,6 @@
 	)
 	(label "aux21"
 		(at 233.68 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13468,7 +13801,6 @@
 	)
 	(label "aux34"
 		(at 187.96 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13479,7 +13811,6 @@
 	)
 	(label "aux27"
 		(at 187.96 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13490,7 +13821,6 @@
 	)
 	(label "aux10"
 		(at 246.38 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13501,7 +13831,6 @@
 	)
 	(label "aux20"
 		(at 187.96 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13512,7 +13841,6 @@
 	)
 	(label "aux36"
 		(at 246.38 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13523,7 +13851,6 @@
 	)
 	(label "aux21"
 		(at 187.96 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13534,7 +13861,6 @@
 	)
 	(label "aux26"
 		(at 187.96 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13545,7 +13871,6 @@
 	)
 	(label "aux19"
 		(at 233.68 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13556,7 +13881,6 @@
 	)
 	(label "aux16"
 		(at 246.38 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13567,7 +13891,6 @@
 	)
 	(label "aux9"
 		(at 187.96 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13578,7 +13901,6 @@
 	)
 	(label "aux8"
 		(at 246.38 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13589,7 +13911,6 @@
 	)
 	(label "aux35"
 		(at 187.96 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13600,7 +13921,6 @@
 	)
 	(label "aux18"
 		(at 187.96 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13611,7 +13931,6 @@
 	)
 	(label "aux6"
 		(at 246.38 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13622,7 +13941,6 @@
 	)
 	(label "aux12"
 		(at 246.38 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13633,7 +13951,6 @@
 	)
 	(label "aux17"
 		(at 187.96 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13644,7 +13961,6 @@
 	)
 	(label "aux28"
 		(at 246.38 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13655,7 +13971,6 @@
 	)
 	(label "aux22"
 		(at 246.38 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13666,7 +13981,6 @@
 	)
 	(label "aux3"
 		(at 233.68 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13677,7 +13991,6 @@
 	)
 	(label "aux32"
 		(at 246.38 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13688,7 +14001,6 @@
 	)
 	(label "aux36"
 		(at 187.96 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13699,7 +14011,6 @@
 	)
 	(label "aux31"
 		(at 233.68 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13710,7 +14021,6 @@
 	)
 	(label "aux2"
 		(at 187.96 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13721,7 +14031,6 @@
 	)
 	(label "aux30"
 		(at 187.96 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13732,7 +14041,6 @@
 	)
 	(label "aux8"
 		(at 187.96 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13743,7 +14051,6 @@
 	)
 	(label "aux14"
 		(at 187.96 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13754,7 +14061,6 @@
 	)
 	(label "aux2"
 		(at 246.38 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13765,7 +14071,6 @@
 	)
 	(label "aux19"
 		(at 187.96 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13776,7 +14081,6 @@
 	)
 	(label "aux13"
 		(at 187.96 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13787,7 +14091,6 @@
 	)
 	(label "aux7"
 		(at 233.68 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13798,7 +14101,6 @@
 	)
 	(label "aux25"
 		(at 233.68 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13809,7 +14111,6 @@
 	)
 	(label "aux5"
 		(at 233.68 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13820,7 +14121,6 @@
 	)
 	(label "aux29"
 		(at 187.96 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13831,7 +14131,6 @@
 	)
 	(label "aux24"
 		(at 187.96 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13842,7 +14141,6 @@
 	)
 	(label "aux30"
 		(at 246.38 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13853,7 +14151,6 @@
 	)
 	(label "aux15"
 		(at 233.68 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13864,7 +14161,6 @@
 	)
 	(label "aux34"
 		(at 246.38 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13875,7 +14171,6 @@
 	)
 	(label "aux1"
 		(at 233.68 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13886,7 +14181,6 @@
 	)
 	(label "aux23"
 		(at 233.68 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13897,7 +14191,6 @@
 	)
 	(label "aux35"
 		(at 233.68 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13908,7 +14201,6 @@
 	)
 	(label "aux16"
 		(at 187.96 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13919,7 +14211,6 @@
 	)
 	(label "aux33"
 		(at 233.68 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13930,7 +14221,6 @@
 	)
 	(label "aux13"
 		(at 233.68 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13941,7 +14231,6 @@
 	)
 	(label "aux25"
 		(at 187.96 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13968,6 +14257,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape bidirectional)
+		(at 187.96 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c88b57b-5da7-48f6-8c7f-c4a32de0e252")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape output)
+		(at 83.82 341.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38ee7384-213f-4e1c-9bdd-3e2c6dcdeecd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID1_SS"
+		(shape input)
+		(at 69.85 320.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "471a634c-6c63-47f3-96ec-36b6d8be1760")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14016,6 +14365,266 @@
 			)
 		)
 	)
+	(global_label "SCK"
+		(shape input)
+		(at 83.82 339.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "611b0781-dba7-4dd6-bdfa-ee3a2ffd6f64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID1_RST"
+		(shape bidirectional)
+		(at 187.96 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c8f8184-dbfe-4a2f-8ac9-7ddd83b10eaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID2_SS"
+		(shape input)
+		(at 71.12 339.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70954d22-89b1-4c2c-a87c-161983015652")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 69.85 322.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "775d2b60-dca7-46f1-9329-8f3ed9e1cd3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID1_SS"
+		(shape bidirectional)
+		(at 187.96 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78abb4d2-d583-4362-aca7-679482ab043f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 71.12 341.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d90e833-97df-48b0-9c0e-b218244fb41b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape bidirectional)
+		(at 187.96 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "801b8727-403f-4938-a865-c3e1d2a67046")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID1_RST"
+		(shape input)
+		(at 69.85 327.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8239b34b-1e54-4e15-bfc4-9ba7c38f906f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape output)
+		(at 82.55 322.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8afd8bbb-f783-4ead-b469-a49b7d2f0e52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID2_SS"
+		(shape bidirectional)
+		(at 187.96 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b05b84b-af7a-42d7-8f1e-ec9c03bc4c31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 82.55 327.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f511ef4-ff91-44ee-bfee-b40caaf8e8bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 121.92 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae4cca93-d175-4e60-884e-b8a8b7d8fefe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.92 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 83.82 346.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbd58c28-89b6-47a6-b9ff-7ac02cbfe4f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12VPowerIn"
 		(shape input)
 		(at 39.37 139.7 0)
@@ -14034,6 +14643,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID2_RST"
+		(shape bidirectional)
+		(at 187.96 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd2d0caf-b3e8-48c8-aa3f-39eb1c859897")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape bidirectional)
+		(at 187.96 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea586fee-627f-4cec-aabd-a941072ec261")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 82.55 320.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edaa02d2-e8a9-409f-932c-75b11b6e1843")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID2_RST"
+		(shape input)
+		(at 71.12 346.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff1d4984-94ec-46a3-9ac2-d6942c2e7d06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14861,6 +15550,93 @@
 			(project ""
 				(path "/e13afade-a666-452f-b611-e224e3b0a9a3"
 					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_02x04_Odd_Even_1")
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 74.93 322.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1595bf13-ebb0-4db2-a5aa-01fc62ff22da")
+		(property "Reference" "J23"
+			(at 76.2 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RFID1"
+			(at 76.2 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical"
+			(at 80.01 335.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 329.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 78.74 331.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74773508-a6d5-4e71-b8d7-507afbe9ae08")
+		)
+		(pin "4"
+			(uuid "af986135-757e-4e34-b833-731bd75261f3")
+		)
+		(pin "8"
+			(uuid "e2111785-6cf8-46a9-bd5d-f05b889d932d")
+		)
+		(pin "7"
+			(uuid "64e8ade1-6f24-4055-b8b7-dd1eaf6c897d")
+		)
+		(pin "3"
+			(uuid "28b51b33-205f-4c16-9f9f-67b193d6e5d1")
+		)
+		(pin "1"
+			(uuid "c6c36452-6d01-49e3-950f-4cf493e5f96a")
+		)
+		(pin "6"
+			(uuid "850accff-f836-404e-a7b7-676bad816a86")
+		)
+		(pin "5"
+			(uuid "c8f1c5b0-218d-4905-8dfd-e9fb82d7a1c7")
+		)
+		(instances
+			(project "NaOshupSound_2.0"
+				(path "/e13afade-a666-452f-b611-e224e3b0a9a3"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -16471,6 +17247,72 @@
 			(project "NaOshupSound_2.0"
 				(path "/e13afade-a666-452f-b611-e224e3b0a9a3"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 351.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d4c9c6b-26d0-4153-a4be-b7f0c1788f98")
+		(property "Reference" "#PWR29"
+			(at 92.71 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdd82af7-766e-4927-9e9c-4073697f7380")
+		)
+		(instances
+			(project "NaOshupSound_2.0"
+				(path "/e13afade-a666-452f-b611-e224e3b0a9a3"
+					(reference "#PWR29")
 					(unit 1)
 				)
 			)
@@ -20002,6 +20844,93 @@
 			(project ""
 				(path "/e13afade-a666-452f-b611-e224e3b0a9a3"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_02x04_Odd_Even_1")
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 76.2 341.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de9b9da5-23f3-4f68-aac5-42827ffa891e")
+		(property "Reference" "J24"
+			(at 77.47 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RFID2/SPI"
+			(at 77.47 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical"
+			(at 81.28 354.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 348.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 80.01 351.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07914b07-ad07-4b2f-abed-a2d347de8342")
+		)
+		(pin "4"
+			(uuid "f5b46854-082c-48c4-862c-acf04b048f98")
+		)
+		(pin "8"
+			(uuid "c786e575-0bcb-4dd9-9df2-b73ffc351a42")
+		)
+		(pin "7"
+			(uuid "617532a5-d679-4635-9771-6d7754198b4a")
+		)
+		(pin "3"
+			(uuid "eb89a629-17fd-40d8-9636-4ce3210f1a08")
+		)
+		(pin "1"
+			(uuid "4f561b06-c727-46c8-a35e-0d13e63d2f97")
+		)
+		(pin "6"
+			(uuid "3938864a-aa9d-44bd-9236-115a9e29d209")
+		)
+		(pin "5"
+			(uuid "04d7b0c6-03f4-4b4d-b756-b2a0b5cc8d16")
+		)
+		(instances
+			(project "NaOshupSound_2.0"
+				(path "/e13afade-a666-452f-b611-e224e3b0a9a3"
+					(reference "J24")
 					(unit 1)
 				)
 			)
